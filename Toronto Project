@@ -7,6 +7,7 @@ pd.set_option('display.max_rows', None)
 import json # library to handle JSON files
 
 #!conda install -c conda-forge geopy --yes # uncomment this line if you haven't completed the Foursquare API lab
+%pip install geopy
 from geopy.geocoders import Nominatim # convert an address into latitude and longitude values
 
 import requests # library to handle requests
@@ -23,3 +24,22 @@ from sklearn.cluster import KMeans
 import folium # map rendering library
 
 print('Libraries imported.')
+
+#I create the data frame
+Columns_names = ['PostalCode', 'Borough','Neighborhood']
+toronto = pd.DataFrame(columns=Columns_names)
+
+toronto.head()
+
+%pip install lxml
+print("Done!")
+
+#I scrape the data from the Wiki page
+df = pd.read_html("https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M")
+df
+
+for data in df:    
+    toronto.append({'Borough': Borough,
+                    'Neighborhood': Neighbourhood,
+                    'PostalCode':PostalCode}, ignore_index=True)
+                   
