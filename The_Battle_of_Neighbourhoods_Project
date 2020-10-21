@@ -1,0 +1,47 @@
+
+Applied Data Science Capstone Project Report¶
+Battle of Neighborhoods: New York City & Airbnb Listings
+
+title
+
+This project report is for the Applied Data Science Capstone Course, a course part of the IBM Data Science Professional Certificate Specialization, where students learn about location data, location data providers, as well as Python libraries to manipulate, explore, analyze, and visualize data. The problem and analysis approach for this project can be chosen by the student, however, it is required to leverage the Fourquare location data to solve the problem.
+
+Table of Contents
+Introduction
+Data
+Methodology
+Results
+Discussion
+Conclusion
+
+Introduction
+Nowadays, with the increasing smart devices penetration worldwide, location data (i.e., geographical position in terms of latitude and longitude) have become easier to obtain and it is used by multiple companies/apps to build better mobile experiences. Examples of such companies are: UBER, Lyft, Starbucks, Mindbody, Facebook, just to name a few. Another company that uses location data is Airbnb, a community-driven hospitality company, which lets people rent out their properties or spare room to guests. In other words, Airbnb offers their users someone's home to stay, instead of the conventional lodging option of a hotel. One of the most popular destination in the world is New York City. In March of 2018, Mayor Bill de Blasio announced that the city welcomed an estimated 62.8 million visitors in 2017, 49.7 million corresponded to domestic visitors, while 13.1 million corresponded to international visitors. It is known that New York City has one of the most active hotel development pipeline in the United States. According to the announcement, even with the 4,000 new rooms added to the city's inventory in 2017 (bringing the total to about 116,500 rooms) room's demand remained strong. In 2017, New York City sold record 36.4 million hotel room nights. Development of the tourist sector, especially in the topic of accommodations, remains important for the big apple.
+
+The main goal of this project is to explore and analyze data of New York City neighborhoods and Inside Airbnb to recommend Airbnb locations based on the surrounding venues of the rental places and listing data. The are three main stakeholders interested in this type of information:
+
+Travelers/Renters: Knowing the category of the surrounding venues of Airbnb locations can help travelers decide where to stay. For example, if a traveler is interested in Broadway shows, that person might want to stay in a neighborhood where the surrounding venues include theaters and perhaps bars, in case he/she wants to enjoy some cocktails before or after the show. On the other hand, if a traveler is into fitness and exercising, that person might want to stay in a location surrounded by common venues such as gyms, parks, juice bars, or yoga studios.
+Home-owners interested or already renting out their properties: It is important to identify and profile your potential travelers. By knowing what type of travelers might be interested in certain locations, home-owners can create and improve marketing strategies (e.g., pictures, recommended locations nearby the rental place, rental fees etc) to promote their property. This information can also help home-owners maximize their vacation rental listing description to make the most impact on guests.
+Real estate investors: People that want to invest in short-term vacation rentals need to know what places are profitable, how many listings are in certain neighborhood, what is the average night fee for properties in the different neighborhoods, what are the common surrounding venues of a potential place, etc.
+Note that both home-owners and real state investors are probably interested in knowing how many listings are in specific neighborhoods, where are the listing located, what are the popular surrounding venues for specific listing, are the travelers short-term or long-term visitors, among many other questions.
+
+
+Data
+Data
+
+Methodology
+
+Methodology
+
+Results
+
+Results
+
+Discussion
+
+Discussion
+
+Conclusion
+
+Conclusion
+
+In [ ]:
